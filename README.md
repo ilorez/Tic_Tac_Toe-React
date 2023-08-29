@@ -1,16 +1,55 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Tic Tac Toe Game - React/TypeScript/Next.js
+
+Welcome to the Tic Tac Toe game project, built using React, TypeScript, and Next.js. This project provides a fun and interactive way to enjoy the classic game of tic-tac-toe.
+
+## Table of Contents
+
+- [Info](#info)
+- [Summary](#summary)
+- [Screenshots](#screenshots)
+- [Getting Started](#getting-started)
+- [Learn More](#learn-more)
+- [Deployment](#deployment)
+
+## Info
+
+- **Author:** [Z-Najdaoui](https://github.com/Z-Najdaoui)
+- **Initial Release Date:** 2023/29/08
+- **Last Edit Date:** 2023/29/08
+- **Challenge Source:** [React Tutorial - Tic Tac Toe](https://react.dev/learn/tutorial-tic-tac-toe)
+
+## Summary
+
+Tic Tac Toe is a classic game built for entertainment. This project provides a digital version of the game, allowing players to enjoy a match of tic-tac-toe.
+
+Thank you for taking a look at this project. Have fun playing! 😄
+
+## Screenshots
+
+### Start Page
+![Start Page](./readmeImg/01.png)
+
+### Winner Announcement
+![Winner](./readmeImg/02.png)
+
+### Draw Scenario
+![Draw](./readmeImg/03.png)
+
 
 ## Getting Started
 
-First, run the development server:
+To run the development server, follow these steps:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+1. Clone this repository.
+2. Navigate to the project directory in your terminal.
+3. Run one of the following commands:
+
+   ```bash
+   npm run dev
+   # or
+   yarn dev
+   # or
+   pnpm dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
