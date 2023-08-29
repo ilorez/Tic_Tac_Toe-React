@@ -1,0 +1,27 @@
+:root{
+  --main-color:#424242;
+
+}
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+

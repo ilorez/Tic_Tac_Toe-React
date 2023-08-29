@@ -1,0 +1,86 @@
+
+
+/* main  */
+.main {
+  background-color: rgba(221, 221, 221, 0.674);
+  border-radius: 0.5rem;
+  box-shadow: 0px 0px 30px rgba(145, 145, 145, 0.219);
+  width: 90%;
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* game section  */
+
+.container{ 
+  display: flex;
+  flex-direction: column;
+  /* background-color: green; */
+}
+.btnsSection{
+  display: flex;
+  flex-direction: column;
+  /* background-color: rgb(29, 12, 102); */
+}
+.row{
+  display: flex;
+  /* background-color: rgb(199, 106, 13); */
+}
+.row div{
+  display: flex;
+  /* background-color: rgb(187, 23, 178); */
+}
+
+.btnsSection button{
+  width: 20vw;
+  height: 20vh;
+  max-width: 100px;
+  max-height: 100px;
+  background-color: rgb(193, 193, 193);
+  color: var(--main-color);
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 0.2rem;
+  box-sizing: border-box;
+  display: inline-block;
+  vertical-align: bottom;
+  font-size: xx-large;
+}
+.bgGreen{
+  background-color: #7FFAA5 !important;
+}
+.bgYellow{
+  background-color: #F5C933 !important;
+  color: #F4E9C4 !important;
+}
+
+.restartBtn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top:1rem;
+  
+}
+.restartBtn button{
+  background-color: #96D6BA;
+  color: var(--main-color);
+  width: 30%;
+  border: none;
+  border-radius: 5px;
+  padding: 0.3rem;
+  font-size: large;
+}
+.message{
+  display: flex;
+  color: var(--main-color);
+  font-size: large;
+  justify-content: center;
+  padding-bottom: 1rem;
+}
+.message::first-letter{
+  text-transform: capitalize;
+}
+.message::after{
+  content: ".";
+}
